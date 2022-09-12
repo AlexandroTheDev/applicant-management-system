@@ -1,0 +1,25 @@
+.welcome-board {
+    text-align: center;
+}
+
+.user-name {
+    display: block;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+a.logout-btn {
+    display: inline-block;
+    border: 1px solid #474747;
+    padding: 7px 15px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    color: #474747;
+    background: #ccc;
+}
+
+a.logout-btn:hover {
+    text-decoration: none;
+    background: #aaa;
+}
