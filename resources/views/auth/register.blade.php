@@ -76,7 +76,7 @@
                             </div>
                         </div>
 
-                        {{-- <div class="g-recaptcha" data-sitekey="6Lepmu8hAAAAAKT8ZNFMt_8C50-bxUzgPxIA9tgv"></div> --}}
+                        {{-- <div class="g-recaptcha" data-sitekey="{{ env('APP_RECAPTCHA_SECRET') }}"></div> --}}
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
@@ -92,5 +92,5 @@
     </div>
 </div>
 
-<script src="https://www.google.com/recaptcha/api.js"></script>
+{{-- <script src="https://www.google.com/recaptcha/api.js"></script> --}}
 @endsection
